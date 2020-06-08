@@ -17,7 +17,7 @@ import java.util.List;
 @PropertySource("classpath:application.properties")
 @ComponentScan(basePackages = "controllers")
 @EnableWebMvc
-@Import({SwaggerConfig.class, EurekaMyTestConfig.class})
+@Import({SwaggerConfig.class})
 public class AppConfig extends WebMvcConfigurerAdapter {
 
     @Override

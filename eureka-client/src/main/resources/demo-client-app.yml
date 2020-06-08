@@ -6,6 +6,8 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
+  instance:
+    statusPageUrlPath: http://localhost:2222/swagger-ui.html
 
 server:
   port: 2222

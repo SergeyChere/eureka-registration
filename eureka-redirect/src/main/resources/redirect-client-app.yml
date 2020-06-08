@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: redirect-servlet-test
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    statusPageUrlPath: http://localhost:8080/app/swagger-ui.html
+    healthCheckUrlPath: http://localhost:8080/app/swagger-ui.html
+server:
+  port: 5555

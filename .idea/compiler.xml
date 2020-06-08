@@ -9,10 +9,12 @@
         <module name="eureka-client" />
         <module name="eureka-server" />
         <module name="eureka-weak" />
+        <module name="eureka-redirect" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eureka-client" target="1.8" />
+      <module name="eureka-redirect" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="eureka-weak" target="6" />
     </bytecodeTargetLevel>
@@ -20,6 +22,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eureka-client" options="-parameters" />
+      <module name="eureka-redirect" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
     </option>
   </component>

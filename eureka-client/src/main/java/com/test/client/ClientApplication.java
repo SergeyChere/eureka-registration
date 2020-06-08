@@ -12,5 +12,4 @@ public class ClientApplication {
 		System.setProperty("spring.config.name", "demo-client-app");
 		SpringApplication.run(ClientApplication.class, args);
 	}
-
 }
